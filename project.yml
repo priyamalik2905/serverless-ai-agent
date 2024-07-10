@@ -12,7 +12,43 @@ packages:
       parameters: {}
       annotations: {}
       functions:
-        - name: run
+        - name: create
+          binary: false
+          main: ""
+          runtime: python:default
+          web: true
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
+        - name: retrieve
+          binary: false
+          main: ""
+          runtime: python:default
+          web: true
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
+        - name: update
+          binary: false
+          main: ""
+          runtime: python:default
+          web: true
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
+        - name: delete
+          binary: false
+          main: ""
+          runtime: python:default
+          web: true
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
+        - name: list
           binary: false
           main: ""
           runtime: python:default

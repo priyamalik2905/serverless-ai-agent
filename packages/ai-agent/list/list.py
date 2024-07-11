@@ -1,5 +1,4 @@
 import openai
-from flask_assistants import FlaskAssistants
 
 def main(event):
       name = event.get("name", "stranger")

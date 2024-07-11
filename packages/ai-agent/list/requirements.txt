@@ -1,2 +1,2 @@
 openai==1.14.2
-git+https://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:x-oauth-basic@github.com/thefrisson/flask-assistants.git
+

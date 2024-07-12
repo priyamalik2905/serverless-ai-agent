@@ -1,14 +1,12 @@
 parameters: {}
 environment:
   ENV: production
-  LOG_DESTINATIONS: '[{"datadog":{"endpoint":"https://http-intake.logs.us3.datadoghq.com/api/v2/logs","api_key":"26c0c4f32f449f43a504870802b6a65b"}}]'
+  
 packages:
     - name: ai-agent
       shared: false
       environment: {
-        DATABASE_URL: "${DATABASE_URL}",
-        OPENAI_API_KEY: "${OPENAI_API_KEY}",
-        STRIPE_SECRET_KEY: "${STRIPE_SECRET_KEY}"
+        LOG_DESTINATIONS: '[{"datadog":{"endpoint":"https://http-intake.logs.us3.datadoghq.com/api/v2/logs","api_key":"26c0c4f32f449f43a504870802b6a65b"}}]'
       }
       parameters: {}
       annotations: {}

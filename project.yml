@@ -5,7 +5,7 @@ packages:
     - name: ai-agent
       shared: false
       environment: {
-        LOG_DESTINATIONS: '[{"datadog":{"endpoint":"https://http-intake.logs.us3.datadoghq.com/api/v2/logs","api_key":"26c0c4f32f449f43a504870802b6a65b"}}]'
+        LOG_DESTINATIONS: '[{"datadog":{"endpoint":"https://http-intake.logs.us3.datadoghq.com/api/v2/logs","api_key":"fb13971f5b50fd764800c65f53b1e7b3"}}]'
       }
       parameters: {}
       annotations: {}
